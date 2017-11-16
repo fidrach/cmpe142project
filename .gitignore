@@ -1,3 +1,6 @@
+# Eclipse files
+.*
+
 # Prerequisites
 *.d
 
@@ -30,3 +33,4 @@
 *.exe
 *.out
 *.app
+/Debug/
