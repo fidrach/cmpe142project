@@ -2,9 +2,17 @@
 #define STUDENT_H_
 
 #include <iostream>
-#include <Windows.h>
 #include <stdlib.h>
 #include <pthread.h>
+
+// OS-dependent includes
+#ifdef _WIN32
+#include <Windows.h>
+#endif
+
+#ifdef linux
+#include <unistd.h>
+#endif
 
 using namespace std;
 
