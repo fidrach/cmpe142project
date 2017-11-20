@@ -87,6 +87,7 @@ void *thread_ta(void *) {
 		program_or_help();                            // put the program_or_help in the ta thread instead of the student one
 		sem_wait(&shared_resources_t.cout_ready);
 		cout << endl << "TA helped student #" << endl; // feel like this should be here instead of the student thread
+								// not quit sure how to get the correct variable
 		sem_post(&shared_resources_t.cout_ready);
 		sem_post(&shared_resources_t.ta_ready);
 		sem_post(&shared_resources_t.access_rw_chairs);
