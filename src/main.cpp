@@ -1,7 +1,17 @@
 #include <iostream>
-#include <windows.h>
+#include <cstdlib>		// srand(), rand()
+#include <pthread.h>	// pthread_t...
 #include <semaphore.h>
+#include <signal.h>		// pthread_kill()...
+// Cross-OS includes
+#ifdef _WIN32
+#include <windows.h>
+#endif
+#ifdef linux
+#include <unistd.h>
+#endif
 
+#define MAX_STUDENT_COUNT 50
 using namespace std;
 
 
@@ -16,6 +26,7 @@ void initialize_semaphores();
 void *thread_ta(void *);
 void *thread_student(void * id);
 void program_or_help(int max_sleep=3);
+static void os_independent_sleep(int ms);
 
 int main() {
 	int n_students;
@@ -47,7 +58,9 @@ int main() {
 		pthread_join(students[i], NULL);
 	}
 
-	pthread_join(ta, NULL); // TODO: find a way to make the TA close once all students have been helped
+	cout << "TA has helped all students..." << endl;
+	pthread_kill(ta, 0);
+	// pthread_join(ta, NULL); // TODO: find a way to make the TA close once all students have been helped
 
 	return 0;
 }
@@ -101,5 +114,15 @@ void *thread_student(void* id) {
 
 void program_or_help(int max_sleep) {
 	int seconds = rand() % max_sleep + 1;
-	Sleep(seconds*1000);
+	os_independent_sleep(seconds*1000);
+}
+
+void os_independent_sleep(int ms) {
+	#ifdef _WIN32
+	Sleep(ms);
+	#endif
+
+	#ifdef linux
+	usleep(1000 * ms);
+	#endif
 }

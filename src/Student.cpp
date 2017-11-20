@@ -2,6 +2,16 @@
 
 #define MAX_CODING_TIME
 
+static void os_independent_sleep(int ms) {
+	#ifdef _WIN32
+	Sleep(ms);
+	#endif
+
+	#ifdef linux
+	usleep(1000 * ms);
+	#endif
+}
+
 Student::Student(int SID) {
 	this->SID = SID;
 }
@@ -9,7 +19,7 @@ Student::Student(int SID) {
 void Student::program() {
 	cout << "Imma code" << endl;
 	int seconds = rand() % MAX_CODING_TIME + 1;
-	Sleep(seconds * 1000);
+	os_independent_sleep(seconds * 1000);
 }
 
 void Student::seek_help() {
