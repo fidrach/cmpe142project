@@ -1,6 +1,14 @@
 #include <iostream>
-#include <windows.h>
+#include <cstdlib>		// srand(), rand()
+#include <pthread.h>	// pthread_t...
 #include <semaphore.h>
+// Cross-OS includes
+#ifdef _WIN32
+#include <windows.h>
+#endif
+#ifdef linux
+#include <unistd.h>
+#endif
 
 #define MAX_STUDENT_COUNT 50
 using namespace std;
@@ -17,6 +25,7 @@ void initialize_semaphores();
 void *thread_ta(void *);
 void *thread_student(void * id);
 void program_or_help(int max_sleep=3);
+static void os_independent_sleep(int ms);
 
 int main() {
 	int n_students;
@@ -102,5 +111,15 @@ void *thread_student(void* id) {
 
 void program_or_help(int max_sleep) {
 	int seconds = rand() % max_sleep + 1;
-	Sleep(seconds*1000);
+	os_independent_sleep(seconds*1000);
+}
+
+void os_independent_sleep(int ms) {
+	#ifdef _WIN32
+	Sleep(ms);
+	#endif
+
+	#ifdef linux
+	usleep(1000 * ms);
+	#endif
 }
