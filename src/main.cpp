@@ -2,6 +2,7 @@
 #include <cstdlib>		// srand(), rand()
 #include <pthread.h>	// pthread_t...
 #include <semaphore.h>
+#include <signal.h>		// pthread_kill()...
 // Cross-OS includes
 #ifdef _WIN32
 #include <windows.h>
@@ -57,7 +58,9 @@ int main() {
 		pthread_join(students[i], NULL);
 	}
 
-	pthread_join(ta, NULL); // TODO: find a way to make the TA close once all students have been helped
+	cout << "TA has helped all students..." << endl;
+	pthread_kill(ta, 0);
+	// pthread_join(ta, NULL); // TODO: find a way to make the TA close once all students have been helped
 
 	return 0;
 }
