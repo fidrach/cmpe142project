@@ -1,0 +1,868 @@
+The Lazy TA
+Enter amount of students:
+
+Student #1 is programming
+
+Student #2 is programming
+
+Student #1 seeking for help
+
+Student #1 waits for TA in chair
+
+Student #3 is programming
+
+Student #3 seeking for help
+
+Student #3 waits for TA in chair
+
+Student #1 goes into TA office
+
+Student #2 seeking for help
+
+Student #2 waits for TA in chair
+
+Student #5 is programming
+
+Student #5 seeking for help
+
+Student #5 waits for TA in chair
+
+Student #4 is programming
+
+Student #4 seeking for help
+
+TA is helping Student #1
+
+TA is done helping Student #1
+
+TA is checking for students
+
+Student #4 waits for TA in chair
+
+Student #6 is programming
+
+Student #6 seeking for help
+
+Student #7 is programming
+
+Student #7 seeking for help
+
+Student #6 waits for TA in chair
+
+Student #3 goes into TA office
+
+No chairs. Student #7 will come back later
+
+Student #7 is programming
+
+Student #7 seeking for help
+
+No chairs. Student #7 will come back later
+
+Student #11 is programming
+
+Student #11 seeking for help
+
+No chairs. Student #11 will come back later
+
+Student #11 is programming
+
+Student #11 seeking for help
+
+No chairs. Student #11 will come back later
+
+Student #11 is programming
+
+Student #11 seeking for help
+
+No chairs. Student #11 will come back later
+
+Student #11 is programming
+
+Student #11 seeking for help
+
+No chairs. Student #11 will come back later
+
+TA is helping Student #3
+
+TA is done helping Student #3
+
+TA is checking for students
+
+Student #11 is programming
+
+Student #11 seeking for help
+
+Student #11 waits for TA in chair
+
+Student #11 goes into TA office
+
+Student #7 is programming
+
+Student #7 seeking for help
+
+No chairs. Student #7 will come back later
+
+Student #7 is programming
+
+Student #7 seeking for help
+
+No chairs. Student #7 will come back later
+
+Student #10 is programming
+
+Student #10 seeking for help
+
+No chairs. Student #10 will come back later
+
+Student #10 is programming
+
+Student #10 seeking for help
+
+No chairs. Student #10 will come back later
+
+Student #10 is programming
+
+Student #10 seeking for help
+
+No chairs. Student #10 will come back later
+
+Student #10 is programming
+
+Student #10 seeking for help
+
+No chairs. Student #10 will come back later
+
+Student #10 is programming
+
+Student #10 seeking for help
+
+No chairs. Student #10 will come back later
+
+Student #10 is programming
+
+Student #10 seeking for help
+
+No chairs. Student #10 will come back later
+
+Student #10 is programming
+
+Student #10 seeking for help
+
+No chairs. Student #10 will come back later
+
+Student #10 is programming
+
+Student #10 seeking for help
+
+Student #7 is programming
+
+Student #7 seeking for help
+
+TA is helping Student #11
+
+TA is done helping Student #11
+
+TA is checking for students
+
+Student #12 is programming
+
+Student #15 is programming
+
+Student #13 is programming
+
+Student #13 seeking for help
+
+Student #12 seeking for help
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+Student #15 seeking for help
+
+Student #9 is programming
+
+Student #9 seeking for help
+
+No chairs. Student #10 will come back later
+
+Student #14 is programming
+
+Student #14 seeking for help
+
+No chairs. Student #7 will come back later
+
+Student #10 is programming
+
+Student #10 seeking for help
+
+Student #5 goes into TA office
+
+Student #13 waits for TA in chair
+
+No chairs. Student #12 will come back later
+
+TA is helping Student #5
+
+TA is done helping Student #5
+
+TA is checking for students
+
+Student #7 is programming
+
+Student #7 seeking for help
+
+Student #12 is programming
+
+Student #12 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #15 will come back later
+
+Student #15 is programming
+
+Student #15 seeking for help
+
+No chairs. Student #15 will come back later
+
+Student #15 is programming
+
+Student #15 seeking for help
+
+No chairs. Student #15 will come back later
+
+Student #15 is programming
+
+Student #15 seeking for help
+
+No chairs. Student #15 will come back later
+
+Student #10 waits for TA in chair
+
+Student #4 goes into TA office
+
+No chairs. Student #9 will come back later
+
+Student #15 is programming
+
+Student #9 is programming
+
+Student #9 seeking for help
+
+TA is helping Student #4
+
+TA is done helping Student #4
+
+TA is checking for students
+
+No chairs. Student #12 will come back later
+
+Student #15 seeking for help
+
+Student #12 is programming
+
+Student #12 seeking for help
+
+No chairs. Student #7 will come back later
+
+Student #7 is programming
+
+Student #7 seeking for help
+
+No chairs. Student #14 will come back later
+
+Student #14 is programming
+
+Student #14 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #9 will come back later
+
+Student #9 is programming
+
+Student #9 seeking for help
+
+Student #15 waits for TA in chair
+
+Student #6 goes into TA office
+
+No chairs. Student #12 will come back later
+
+Student #12 is programming
+
+Student #12 seeking for help
+
+No chairs. Student #7 will come back later
+
+TA is helping Student #6
+
+TA is done helping Student #6
+
+TA is checking for students
+
+Student #7 is programming
+
+Student #7 seeking for help
+
+No chairs. Student #14 will come back later
+
+Student #14 is programming
+
+Student #14 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #9 will come back later
+
+Student #9 is programming
+
+Student #9 seeking for help
+
+No chairs. Student #12 will come back later
+
+Student #12 is programming
+
+Student #12 seeking for help
+
+Student #7 waits for TA in chair
+
+Student #13 goes into TA office
+
+No chairs. Student #14 will come back later
+
+TA is helping Student #13
+
+TA is done helping Student #13
+
+TA is checking for students
+
+Student #14 is programming
+
+Student #2 goes into TA office
+
+Student #9 waits for TA in chair
+
+Student #14 seeking for help
+
+No chairs. Student #14 will come back later
+
+Student #14 is programming
+
+Student #14 seeking for help
+
+No chairs. Student #14 will come back later
+
+Student #14 is programming
+
+Student #14 seeking for help
+
+No chairs. Student #14 will come back later
+
+Student #14 is programming
+
+Student #14 seeking for help
+
+No chairs. Student #14 will come back later
+
+Student #14 is programming
+
+Student #14 seeking for help
+
+No chairs. Student #14 will come back later
+
+Student #14 is programming
+
+Student #14 seeking for help
+
+No chairs. Student #14 will come back later
+
+Student #14 is programming
+
+Student #14 seeking for help
+
+No chairs. Student #14 will come back later
+
+Student #14 is programming
+
+Student #14 seeking for help
+
+No chairs. Student #14 will come back later
+
+Student #14 is programming
+
+Student #14 seeking for help
+
+No chairs. Student #14 will come back later
+
+Student #14 is programming
+
+Student #14 seeking for help
+
+No chairs. Student #14 will come back later
+
+Student #14 is programming
+
+Student #14 seeking for help
+
+No chairs. Student #14 will come back later
+
+Student #14 is programming
+
+Student #14 seeking for help
+
+TA is helping Student #2
+
+No chairs. Student #8 will come back later
+
+TA is done helping Student #2
+
+No chairs. Student #14 will come back later
+
+TA is checking for students
+
+No chairs. Student #12 will come back later
+
+Student #12 is programming
+
+Student #12 seeking for help
+
+Student #12 waits for TA in chair
+
+Student #10 goes into TA office
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+TA is helping Student #10
+
+TA is done helping Student #10
+
+TA is checking for students
+
+Student #15 goes into TA office
+
+Student #14 is programming
+
+Student #14 seeking for help
+
+Student #14 waits for TA in chair
+
+TA is helping Student #15
+
+TA is done helping Student #15
+
+TA is checking for students
+
+No chairs. Student #8 will come back later
+
+Student #8 is programming
+
+Student #8 seeking for help
+
+Student #8 waits for TA in chair
+
+Student #7 goes into TA office
+
+TA is helping Student #7
+
+TA is done helping Student #7
+
+TA is checking for students
+
+Student #9 goes into TA office
+
+TA is helping Student #9
+
+TA is done helping Student #9
+
+TA is checking for students
+
+Student #12 goes into TA office
+
+TA is helping Student #12
+
+TA is done helping Student #12
+
+TA is checking for students
+
+Student #14 goes into TA office
+
+TA is helping Student #14
+
+TA is done helping Student #14
+
+TA is checking for students
+
+Student #8 goes into TA office
+
+TA is helping Student #8
+
+TA is done helping Student #8
+
+TA is checking for students
+
+TA has helped all students
