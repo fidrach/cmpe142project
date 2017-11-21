@@ -40,14 +40,11 @@ int main() {
 	srand(seed);
 
 	cout << "The Lazy TA" << endl;
-
-	cout << "Enter amount of students:" << endl;
-
-	cin >> n_students;
+    cout << "Enter amount of students:" << endl;
+    cin >> n_students;
 
 	initialize_semaphores();
-
-	pthread_t ta, students[n_students];
+    pthread_t ta, students[n_students];
 
 	// Spawn TA thread
 	pthread_create(&ta, NULL, thread_ta, NULL);
@@ -110,7 +107,7 @@ void *thread_student(void* id) {
 		// Program for random period of time
 		program_or_help();
 
-		custom_cout("Student #" + to_string(*i) + " seeking for help");
+		custom_cout("Student #" + to_string(*i) + " looking for TA's help");
 		sem_wait(&shared_resources_t.access_rw_chairs);
 
 		// If chairs available
@@ -118,7 +115,7 @@ void *thread_student(void* id) {
 
 			shared_resources_t.chairs--;
 
-			custom_cout("Student #" + to_string(*i) + " waits for TA in chair");
+			custom_cout("Student #" + to_string(*i) + " waiting for TA in chair");
 
 			sem_post(&shared_resources_t.student_ready);
 
@@ -149,7 +146,7 @@ void program_or_help(int max_sleep) {
 
 void custom_cout(string s) {
 	sem_wait(&shared_resources_t.cout_access);
-	cout << endl << s << endl;
+	cout << endl << s;
 	sem_post(&shared_resources_t.cout_access);
 }
 
