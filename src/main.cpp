@@ -27,23 +27,30 @@ struct RESOURCES{
 	int student_id;
 } shared_resources_t;
 
-void initialize_semaphores();
+void initialize_semaphores(int number_of_chairs);
 void *thread_ta(void *);
 void *thread_student(void * id);
 void program_or_help(int max_sleep=3);
 void custom_cout(string s);
 static void os_independent_sleep(int ms);
 
-int main() {
+int main(int argc, char* argv[]) {
 	int n_students;
-	int seed = time(NULL);
+	int chairs;
+    int seed = time(NULL);
 	srand(seed);
+    if(argc < 3) {
+        cout << "The Lazy TA" << endl;
+        cout << "Enter amount of students:" << endl;
+        cin >> n_students;
+        cout << "Number of chairs:" << endl;
+        cin >> chairs;
+    } else{
+        n_students = std::stoi(argv[1]);
+        chairs = std::stoi(argv[2]);
+    }
 
-	cout << "The Lazy TA" << endl;
-    cout << "Enter amount of students:" << endl;
-    cin >> n_students;
-
-	initialize_semaphores();
+	initialize_semaphores(chairs);
     pthread_t ta, students[n_students];
 
 	// Spawn TA thread
@@ -68,13 +75,13 @@ int main() {
 	return 0;
 }
 
-void initialize_semaphores() {
+void initialize_semaphores(int number_of_chairs) {
 	sem_init(&shared_resources_t.student_ready, 0, 0);
 	sem_init(&shared_resources_t.access_rw_chairs, 0, 1);
 	sem_init(&shared_resources_t.ta_ready, 0, 0);
 	sem_init(&shared_resources_t.cout_access, 0, 1);
 	sem_init(&shared_resources_t.access_rw_student_id, 0, 0);
-	shared_resources_t.chairs = 4;
+	shared_resources_t.chairs = number_of_chairs;
 }
 
 void *thread_ta(void *) {
