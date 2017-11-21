@@ -91,10 +91,10 @@ void *thread_ta(void *) {
 		sem_wait(&shared_resources_t.access_rw_student_id);
 		int student_id = shared_resources_t.student_id;
 
-		custom_cout("TA is helping Student #" + to_string(student_id));
+		custom_cout("TA is helping Student #" + std::to_string(student_id));
 		// Help student for random period of time
 		program_or_help();
-		custom_cout("TA is done helping Student #" + to_string(student_id));
+		custom_cout("TA is done helping Student #" + std::to_string(student_id));
 
 		custom_cout("TA is checking for students");
 	}
@@ -103,11 +103,11 @@ void *thread_ta(void *) {
 void *thread_student(void* id) {
 	int* i = (int*)id;
 	while(1) {
-		custom_cout("Student #" + to_string(*i) + " is programming");
+		custom_cout("Student #" + std::to_string(*i) + " is programming");
 		// Program for random period of time
 		program_or_help();
 
-		custom_cout("Student #" + to_string(*i) + " looking for TA's help");
+		custom_cout("Student #" + std::to_string(*i) + " looking for TA's help");
 		sem_wait(&shared_resources_t.access_rw_chairs);
 
 		// If chairs available
@@ -115,14 +115,14 @@ void *thread_student(void* id) {
 
 			shared_resources_t.chairs--;
 
-			custom_cout("Student #" + to_string(*i) + " waiting for TA in chair");
+			custom_cout("Student #" + std::to_string(*i) + " waiting for TA in chair");
 
 			sem_post(&shared_resources_t.student_ready);
 
 			sem_post(&shared_resources_t.access_rw_chairs);
 
 			sem_wait(&shared_resources_t.ta_ready);
-			custom_cout("Student #" + to_string(*i) + " goes into TA office");
+			custom_cout("Student #" + std::to_string(*i) + " goes into TA office");
 
 			// Provide Student ID
 			shared_resources_t.student_id = *i;
@@ -132,7 +132,7 @@ void *thread_student(void* id) {
 		}
 		// Go home and program some more
 		else {
-			custom_cout("No chairs. Student #" + to_string(*i) + " will come back later");
+			custom_cout("No chairs. Student #" + std::to_string(*i) + " will come back later");
 			sem_post(&shared_resources_t.access_rw_chairs);
 		}
 	}
